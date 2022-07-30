@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  color:hsl(192, 100%, 9%);
+  font-family: 'Poppins', sans-serif;
+  
+   
+
+  main{
+    background-image: url(../img/bg-hero-desktop.svg);
+  }
+  background: hsl(193, 100%, 96%);
+  height: 500px;
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+    .button{
+      text-align: center;
+      width: 100px;
+      padding: 7px 10px;
+      background:white;
+      border-radius: 20px;
+      font-size: 600;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    img{
+      width: 70%;
+    }
+
+
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 50%;
+    }
+    .text{
+      margin: 0 20px;
+      padding: 10px;
+      h1{
+        font-weight: 700;
+        font-size: 3em;
+      }
+      .button{
+        color: white;
+        display:flex;
+        justify-content: center;
+        width: 150px;
+        padding: 15px 20px;
+        border-radius: 20px;
+        background: hsl(322, 100%, 66%);
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.5s;
+        margin-top: 20px;
+        font-size: .8em;
+      }
+
+    }
+
+  }
+  section{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 1100px;
+    
+    .item{
+      display: flex;
+      width: 80%;
+      height: 300px;
+      background:#fafaec;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px rgba(0,0,0, 0.2),-3px -3px 10px rgba(0,0,0, 0.2);
+    
+      img{
+        width: 50%;
+      }
+      div{
+        margin-top: 5em;
+        margin-left: 4em;
+        margin-right: 8em;
+
+        h2{
+          font-weight: 700;
+          font-size: 2em;
+          margin-bottom: 20px;
+          margin-top: 10px;
+        }
+      }
+    }
+    
+  
+  }
+  .red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    background:white ;
+    box-shadow: 3px 3px 10px rgba(0,0,0, 0.2),-3px -3px 10px rgba(0,0,0, 0.2);
+    text-align: center;
+    border-radius: 20px;
+    transform:translateY(59%);
+    .button{
+      color: white;
+      display:flex;
+      justify-content: center;
+      width: 150px;
+      padding: 15px 20px;
+      border-radius: 20px;
+      background: hsl(322, 100%, 66%);
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.5s;
+      margin-top: 20px;
+      font-size: .8em;
+    }
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(192, 100%, 9%);
+    height: 400px;
+    color: white;
+    padding: 0 20px;
+    p{
+      margin: 10px 0;
+    }
+
+    .first{
+      width: 300px;
+      article{
+        display: flex;
+        align-items: center;
+      i{
+        margin-right: 10px;
+      }
+      }
+    }
+    .scond{
+      display: flex;
+      flex-direction: column;
+      a{
+         text-decoration: none;
+         color: white;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+     
+    }
+    .last{
+      i{
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      i:hover{
+        color: hsl(322, 100%, 66%);
+      }
+    }
+    
+  }
+
+
+  // @media screen and (max-width:375px) {
+    
+  //   main{
+  //     background-image: url(../img/bg-hero-mobile.svg);
+  //     height: 800px;
+  //     width: 100%;
+  //     display: flex;
+  //     flex-direction: column;
+
+  //     header{
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: space-between;
+  //       width: 100%;
+  //       margin: 10PX 0;
+  //       img{
+  //         width:70%;
+          
+  //       }
+  //       .button{
+  //         margin-left: 100px;
+  //       }
+  //     }
+  //     .hero{
+  //       display: flex;
+  //       flex-direction: column;
+  //       align-items: center;
+  //       justify-content: center;
+  //       margin: 0 10px;
+  //     }
+  //   }
+    
+  // }
+
+}

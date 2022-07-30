@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  background: hsl(193deg, 100%, 96%);
+  height: 500px;
+}
+body main {
+  background-image: url(../img/bg-hero-desktop.svg);
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+body header .button {
+  text-align: center;
+  width: 100px;
+  padding: 7px 10px;
+  background: white;
+  border-radius: 20px;
+  font-size: 600;
+  cursor: pointer;
+  font-weight: 500;
+}
+body header img {
+  width: 70%;
+}
+body .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .hero img {
+  width: 50%;
+}
+body .hero .text {
+  margin: 0 20px;
+  padding: 10px;
+}
+body .hero .text h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+body .hero .text .button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: hsl(322deg, 100%, 66%);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.5s;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+body section {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  height: 1100px;
+}
+body section .item {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  background: #fafaec;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2), -3px -3px 10px rgba(0, 0, 0, 0.2);
+}
+body section .item img {
+  width: 50%;
+}
+body section .item div {
+  margin-top: 5em;
+  margin-left: 4em;
+  margin-right: 8em;
+}
+body section .item div h2 {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+body .red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 150px;
+  margin: auto;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2), -3px -3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 20px;
+  transform: translateY(59%);
+}
+body .red .button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: hsl(322deg, 100%, 66%);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.5s;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+body footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: hsl(192deg, 100%, 9%);
+  height: 400px;
+  color: white;
+  padding: 0 20px;
+}
+body footer p {
+  margin: 10px 0;
+}
+body footer .first {
+  width: 300px;
+}
+body footer .first article {
+  display: flex;
+  align-items: center;
+}
+body footer .first article i {
+  margin-right: 10px;
+}
+body footer .scond {
+  display: flex;
+  flex-direction: column;
+}
+body footer .scond a {
+  text-decoration: none;
+  color: white;
+}
+body footer .scond a:hover {
+  text-decoration: underline;
+}
+body footer .last i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+body footer .last i:hover {
+  color: hsl(322deg, 100%, 66%);
+}/*# sourceMappingURL=stlye.css.map */
